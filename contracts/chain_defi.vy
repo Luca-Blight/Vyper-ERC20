@@ -1,5 +1,13 @@
 # @version 0.3.3
 
+"""
+@title YFI Buyer
+@license MIT
+@author banteg
+@notice
+    This contract buys YFI for DAI at the current Chainlink price.
+"""
+
 from vyper.interfaces import ERC20
 
 YFI: constant(address) = 0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e
